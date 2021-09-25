@@ -12,9 +12,24 @@
     <h2>Bio</h2>
     <p>On September 22nd, Hoskinson announced a $20M gift to Carnegie Mellon University to create the Hoskinson Center for Formal Mathematics, which is dedicated to the intersection of science, mathematics, philosophy and logic. [13] Formal mathematics has not been revised since the work of David Hilbert in 1900; the goal of the center is to create a new working language starting with work coming out of the Lean community, and will be led by Jeremy Avigad.</p>
     <h2>Education</h2>
-    <p>Georgia Institute of Technology 21' </p>
+    <p>Georgia Institute of Technology 21' ME </p>
     <h2>Skills</h2>
-    <img src="img/flow chart _Stewart Platform_DH.png"/>
+    
+    <canvas id = "demo"></canvas>
+    <script>
+        var img = new Image(),
+        canvas = document.getElementById("demo"),
+        ctx = canvas.getContext("2d");
+        img.onload = function(){
+            let width = Math.floor(img.width * 0.3);
+            let height = Math.floor(img.height * 0.3);
+            canvas.width = width;
+            canvas.height = height;
+            ctx.drawImage(img, 0, 0, width, height);
+        };
+        img.src = "img/flow chart _Stewart Platform_DH.png";
+    </script>
+
     <p>MATLAB</p>
     <h2>Projects</h2>
     <h2>Hobby</h2>
