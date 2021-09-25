@@ -14,7 +14,22 @@
     <h2>Education</h2>
     <p>Georgia Institute of Technology 21' </p>
     <h2>Skills</h2>
-    <img src="img/flow chart _Stewart Platform_DH.png"/>
+    
+    <canvas id = "demo"></canvas>
+    <script>
+        var img = new Image(),
+        canvas = document.getElementById("demo"),
+        ctx = canvas.getContext("2d");
+        img.onload = function(){
+            let width = Math.floor(img.width * 0.3);
+            let height = Math.floor(img.height * 0.3);
+            canvas.width = width;
+            canvas.height = height;
+            ctx.drawImage(img, 0, 0, width, height);
+        };
+        img.src = "img/flow chart _Stewart Platform_DH.png";
+    </script>
+
     <p>MATLAB</p>
     <h2>Projects</h2>
     <h2>Hobby</h2>
