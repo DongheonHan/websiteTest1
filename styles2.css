@@ -20,4 +20,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+  } h4 {
+    text-align: center;
+    font-size: x-small;
   }
