@@ -1,9 +1,11 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
-    margin-bottom: 250px;
-    margin-right: 250px;
-    margin-left: 250px;
+    font-family: monospace;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+
     background: white;
     text-align: justify;
 } 
