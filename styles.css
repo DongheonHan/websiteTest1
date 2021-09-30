@@ -1,5 +1,6 @@
 body {
     font-family: monospace;
+
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
@@ -8,4 +9,9 @@ body {
 
     background: white;
     text-align: left;
-} 
+} input[type=button] {
+    font-family: monospace;
+    color:black;
+    background-color: white;
+
+}
